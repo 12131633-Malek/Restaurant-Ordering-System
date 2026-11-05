@@ -1,13 +1,16 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Menu.css'
 
 export default function Menu({ order, setOrder }) {
+  // This ref points to the order section at the bottom of the menu.
+  const orderSection = useRef(null)
   // This state remembers which category the visitor selected.
   const [category, setCategory] = useState('All')
 
   function addToOrder(name, price) {
     setOrder([...order, { name: name, price: price }])
+    orderSection.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 
   function removeFromOrder(itemIndex) {
@@ -363,7 +366,7 @@ export default function Menu({ order, setOrder }) {
       )}
 
       {/* The order list uses map because it changes when buttons are clicked. */}
-      <section className="order-summary" aria-labelledby="order-title">
+      <section ref={orderSection} className="order-summary" aria-labelledby="order-title">
         <h2 id="order-title">Your Order</h2>
         {order.length === 0 && <p>Your order is empty. Choose something from the menu!</p>}
         <ul>
