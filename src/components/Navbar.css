@@ -18,6 +18,22 @@
   text-decoration: none;
 }
 
+.navbar nav {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar nav a.active {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
+
 .navbar a:hover {
   text-decoration: underline;
 }

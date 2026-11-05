@@ -1,0 +1,203 @@
+/* Page title */
+.menu-page {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.menu-page h1 {
+  text-align: center;
+  color: #28513c;
+}
+
+.menu-intro {
+  text-align: center;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Each food category */
+.menu-filter {
+  margin: 25px 0;
+  text-align: center;
+}
+
+.menu-filter label {
+  font-weight: bold;
+}
+
+.menu-filter select {
+  margin: 8px;
+  padding: 10px;
+  font: inherit;
+  color: #28513c;
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.menu-section {
+  margin: 35px 0;
+}
+
+.menu-section h2 {
+  color: #28513c;
+}
+
+/* One dish per row avoids empty slots in categories with odd item counts. */
+.menu-items {
+  display: grid;
+  gap: 12px;
+}
+
+/* Photo, description, price, and button each have their own column. */
+.menu-item {
+  display: grid;
+  grid-template-columns: 90px minmax(0, 1fr) 65px 110px;
+  grid-template-rows: auto auto;
+  align-items: center;
+  gap: 6px 16px;
+  padding: 12px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.menu-item img {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.menu-item h3 {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: end;
+  margin: 0;
+  font-size: 17px;
+}
+
+.menu-item p {
+  grid-column: 2;
+  grid-row: 2;
+  align-self: start;
+  margin: 0;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.menu-item .menu-price {
+  grid-column: 3;
+  grid-row: 1 / 3;
+  align-self: center;
+  color: #28513c;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.menu-item button {
+  grid-column: 4;
+  grid-row: 1 / 3;
+  width: 110px;
+}
+
+/* On phones, keep the price and button together below the description. */
+@media (max-width: 600px) {
+  .menu-item {
+    grid-template-columns: 80px minmax(0, 1fr);
+    gap: 8px 12px;
+  }
+
+  .menu-item img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .menu-item .menu-price {
+    grid-column: 1;
+    grid-row: 3;
+    text-align: left;
+  }
+
+  .menu-item button {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: end;
+  }
+}
+
+/* Buttons for adding and removing dishes */
+.menu-page button {
+  margin-top: 12px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28513c;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.menu-item button {
+  margin-top: 0;
+  padding: 7px 12px;
+  font-size: 14px;
+}
+
+.menu-page button:hover {
+  background-color: #193727;
+}
+
+.menu-page button:focus-visible {
+  outline: 3px solid #c97d27;
+  outline-offset: 3px;
+}
+
+.order-summary {
+  padding: 20px;
+  margin: 35px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.order-summary ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order-summary li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-summary li button {
+  margin-top: 0;
+}
+
+.order-total {
+  font-size: 20px;
+  font-weight: bold;
+  color: #28513c;
+}
+
+.order-summary .checkout-link {
+  margin-left: 20px;
+}
+
+@media (max-width: 450px) {
+  .order-summary .checkout-link {
+    display: block;
+    margin-left: 0;
+    text-align: center;
+  }
+}

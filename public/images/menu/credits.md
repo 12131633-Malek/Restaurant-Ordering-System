@@ -1,0 +1,41 @@
+# Menu photo credits
+
+Illustrative menu photographs from Wikimedia Commons. See each source for its license and attribution requirements.
+
+- **7UP**: [Imgur and Reddit user logicblocks](https://commons.wikimedia.org/wiki/File:7-Up_Bottlers_Flavor_jug.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- **Ayran**: [Hamdigumus](https://commons.wikimedia.org/wiki/File:Naneli_ayran_-_Dara.jpg), [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en).
+- **BBQ Chicken Pizza**: [Kim Scarborough from Chicago, IL](https://commons.wikimedia.org/wiki/File:Barbecued_Chicken_with_Pizza_(Sonoma_Chicken_Coop)_(147979733).jpg), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0).
+- **Baba Ghanoush**: [gran](https://commons.wikimedia.org/wiki/File:Baba_ghanoush_prep.jpg), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0).
+- **Baklava**: [Kultigin](https://commons.wikimedia.org/wiki/File:Baklava_-_Turkish_special,_80-ply.JPEG), [Public domain](https://commons.wikimedia.org/wiki/File:Baklava_-_Turkish_special,_80-ply.JPEG).
+- **Bottled Water**: [Jiafei Slay Queen](https://commons.wikimedia.org/wiki/File:Bottle_of_Water.jpg), [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en).
+- **Cheeseburger**: [Acabashi](https://commons.wikimedia.org/wiki/File:Cheeseburger_with_onions_at_Hatfield_Heath_Festival_2017.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- **Chicken Shawarma Wrap**: [Andy Li](https://commons.wikimedia.org/wiki/File:Chicken_Shawarma_Wrap_-_Lavash_2024-09-11.jpg), [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en).
+- **Chocolate Cake**: [Daria YakovlevaMinor edits made by Subsidiary account](https://commons.wikimedia.org/wiki/File:Piece_of_chocolate_cake_on_a_white_plate_decorated_with_chocolate_sauce.jpg), [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en).
+- **Classic Beef Burger**: [عمرو](https://commons.wikimedia.org/wiki/File:Hamburger_with_beef_bacon.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- **Crispy Chicken Burger**: [Chikex](https://commons.wikimedia.org/wiki/File:Chicken-burger-combo_(1).jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- **Falafel Wrap**: [Andy Li](https://commons.wikimedia.org/wiki/File:Falafel_Melt_Wrap_-_We_Love_Falafel_2023-09-27.jpg), [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en).
+- **Fattoush Salad**: [Arousing Appetites](https://commons.wikimedia.org/wiki/File:Fattoush_mixed-salad.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
+- **French Fries**: [Chris Woodrich](https://commons.wikimedia.org/wiki/File:Cajun_fries_from_Popeyes_Louisiana_Kitchen,_Stratford,_Ontario,_2025-08-04.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- **Grilled Chicken Plate**: [Punker1999](https://commons.wikimedia.org/wiki/File:Peanut_butter_chicken_skewers.jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).
+- **Grilled Fish**: [Marek Ślusarczyk (Tupungato) Photo portfolio](https://commons.wikimedia.org/wiki/File:Seafood_in_Spain_-_Gran_Canaria_grilled_fish_and_seafood_plate.jpg), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0).
+- **Halloumi Sandwich**: [Andy Li](https://commons.wikimedia.org/wiki/File:Spicy_%26_Smoky_Halloumi_Sandwich_-_T_@_The_Dials_2025-04-12.jpg), [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en).
+- **Hummus**: [Satdeep Gill](https://commons.wikimedia.org/wiki/File:Homemade_hummus_and_pita_03.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- **Iced Tea**: [Renee Comet (photographer)](https://commons.wikimedia.org/wiki/File:NCI_iced_tea.jpg), [Public domain](https://commons.wikimedia.org/wiki/File:NCI_iced_tea.jpg).
+- **Kafta Plate**: [Foodista](https://commons.wikimedia.org/wiki/File:K%C3%B6fte_kebabs.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0).
+- **Kunafa**: [PeleYoetz](https://commons.wikimedia.org/wiki/File:Knafeh_in_Nazareth,_Israel.png), [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en).
+- **Lentil Soup**: [Andy Li](https://commons.wikimedia.org/wiki/File:Homemade_Lentil_Soup_-_Lavash_2025-02-10.jpg), [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en).
+- **Margherita Pizza**: [Mario56](https://commons.wikimedia.org/wiki/File:Margherita_Originale.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
+- **Mint Lemonade**: [Bernard Gagnon](https://commons.wikimedia.org/wiki/File:Mint_lemonade.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
+- **Mirinda Orange**: [Faris knight](https://commons.wikimedia.org/wiki/File:Mirinda_Egypt-orange%26green_apple-plastic_bottles.JPG), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- **Mixed Grill**: [Peterjerusalem](https://commons.wikimedia.org/wiki/File:Maoravyerushalmi.jpeg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- **Mushroom Burger**: [Andy Li](https://commons.wikimedia.org/wiki/File:Fancy_Veggie_Burger_and_Fries_-_Joe%27s_Burger_House_2024-07-07.jpg), [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en).
+- **Orange Juice**: [Agency of the United States Department of Agriculture Edited Version by: Arad](https://commons.wikimedia.org/wiki/File:Orange_juice_1_edit1.jpg), [Public domain](https://commons.wikimedia.org/wiki/File:Orange_juice_1_edit1.jpg).
+- **Pepperoni Pizza**: [Andy Li](https://commons.wikimedia.org/wiki/File:Pepperoni_Pizza_-_Greggs_2024-03-16.jpg), [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en).
+- **Pepsi**: [Hillsilo](https://commons.wikimedia.org/wiki/File:2_Pepsi_cans,_zero_sugar.jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).
+- **Pepsi Max**: [Ramolito](https://commons.wikimedia.org/wiki/File:Pepsi_Max_can.jpg), [Public domain](https://commons.wikimedia.org/wiki/File:Pepsi_Max_can.jpg).
+- **Rice Pudding**: [Bukky658](https://commons.wikimedia.org/wiki/File:Tuwo_Shinkafa_with_garden_egg_Soup.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- **Steak Sandwich**: [Gnangcomapp](https://commons.wikimedia.org/wiki/File:Steak_Sanga_gn.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- **Tabbouleh**: [cyclonebill](https://commons.wikimedia.org/wiki/File:Flickr_-_cyclonebill_-_Tabbouleh.jpg), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0).
+- **Tawouk Sandwich**: [N509FZ](https://commons.wikimedia.org/wiki/File:Grilled_Chicken_Sandwich_from_McDonald%27s_Dongzhimenwai_Store_(20191222163031).jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- **Turkish Coffee**: [Julius Schorzman](https://commons.wikimedia.org/wiki/File:A_small_cup_of_coffee.JPG), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0).
+- **Vegetable Pizza**: [Waran R Samay](https://commons.wikimedia.org/wiki/File:Vegetable_pizza_food.jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).

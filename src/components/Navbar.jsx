@@ -1,11 +1,14 @@
 import './Navbar.css'
+import { NavLink, Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
     <header id="home" className="navbar">
-      <a className="restaurant-name" href="#home">Olive &amp; Thyme</a>
+      <Link className="restaurant-name" to="/">Olive &amp; Thyme</Link>
       <nav aria-label="Main navigation">
-        <a href="#home">Home</a>
+        <NavLink to="/" end>Home</NavLink>
+        <NavLink to="/menu">Menu</NavLink>
+        <NavLink to="/checkout">Checkout</NavLink>
       </nav>
     </header>
   )

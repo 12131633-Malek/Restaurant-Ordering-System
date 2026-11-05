@@ -1,0 +1,298 @@
+[
+  {
+    "name": "Tabbouleh",
+    "file": "tabbouleh.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_cyclonebill_-_Tabbouleh.jpg",
+    "artist": "cyclonebill",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "name": "Hummus",
+    "file": "hummus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Homemade_hummus_and_pita_03.jpg",
+    "artist": "Satdeep Gill",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "name": "Fattoush Salad",
+    "file": "fattoush-salad.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fattoush_mixed-salad.jpg",
+    "artist": "Arousing Appetites",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "name": "Baba Ghanoush",
+    "file": "baba-ghanoush.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Baba_ghanoush_prep.jpg",
+    "artist": "gran",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  {
+    "name": "Lentil Soup",
+    "file": "lentil-soup.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Homemade_Lentil_Soup_-_Lavash_2025-02-10.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "name": "French Fries",
+    "file": "french-fries.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cajun_fries_from_Popeyes_Louisiana_Kitchen,_Stratford,_Ontario,_2025-08-04.jpg",
+    "artist": "Chris Woodrich",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "name": "Grilled Chicken Plate",
+    "file": "grilled-chicken-plate.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Peanut_butter_chicken_skewers.jpg",
+    "artist": "Punker1999",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  {
+    "name": "Kafta Plate",
+    "file": "kafta-plate.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:K%C3%B6fte_kebabs.jpg",
+    "artist": "Foodista",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+    "name": "Mixed Grill",
+    "file": "mixed-grill.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Maoravyerushalmi.jpeg",
+    "artist": "Peterjerusalem",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "name": "Grilled Fish",
+    "file": "grilled-fish.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Seafood_in_Spain_-_Gran_Canaria_grilled_fish_and_seafood_plate.jpg",
+    "artist": "Marek \u015alusarczyk (Tupungato) Photo portfolio",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  {
+    "name": "Halloumi Sandwich",
+    "file": "halloumi-sandwich.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Spicy_%26_Smoky_Halloumi_Sandwich_-_T_@_The_Dials_2025-04-12.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "name": "Mint Lemonade",
+    "file": "mint-lemonade.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mint_lemonade.jpg",
+    "artist": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "name": "Orange Juice",
+    "file": "orange-juice.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Orange_juice_1_edit1.jpg",
+    "artist": "Agency of the United States Department of Agriculture Edited Version by: Arad",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Orange_juice_1_edit1.jpg"
+  },
+  {
+    "name": "Iced Tea",
+    "file": "iced-tea.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:NCI_iced_tea.jpg",
+    "artist": "Renee Comet (photographer)",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:NCI_iced_tea.jpg"
+  },
+  {
+    "name": "Pepsi Max",
+    "file": "pepsi-max.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pepsi_Max_can.jpg",
+    "artist": "Ramolito",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Pepsi_Max_can.jpg"
+  },
+  {
+    "name": "Ayran",
+    "file": "ayran.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Naneli_ayran_-_Dara.jpg",
+    "artist": "Hamdigumus",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "name": "Cheeseburger",
+    "file": "cheeseburger.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cheeseburger_with_onions_at_Hatfield_Heath_Festival_2017.jpg",
+    "artist": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "name": "Classic Beef Burger",
+    "file": "classic-beef-burger.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hamburger_with_beef_bacon.jpg",
+    "artist": "\u0639\u0645\u0631\u0648",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "name": "Crispy Chicken Burger",
+    "file": "crispy-chicken-burger.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chicken-burger-combo_(1).jpg",
+    "artist": "Chikex",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "name": "Mushroom Burger",
+    "file": "mushroom-burger.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fancy_Veggie_Burger_and_Fries_-_Joe%27s_Burger_House_2024-07-07.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "name": "Vegetable Pizza",
+    "file": "vegetable-pizza.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Vegetable_pizza_food.jpg",
+    "artist": "Waran R Samay",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  {
+    "name": "Margherita Pizza",
+    "file": "margherita-pizza.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Margherita_Originale.JPG",
+    "artist": "Mario56",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "name": "Pepperoni Pizza",
+    "file": "pepperoni-pizza.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pepperoni_Pizza_-_Greggs_2024-03-16.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "name": "BBQ Chicken Pizza",
+    "file": "bbq-chicken-pizza.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Barbecued_Chicken_with_Pizza_(Sonoma_Chicken_Coop)_(147979733).jpg",
+    "artist": "Kim Scarborough from Chicago, IL",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "name": "Falafel Wrap",
+    "file": "falafel-wrap.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Falafel_Melt_Wrap_-_We_Love_Falafel_2023-09-27.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "name": "Chicken Shawarma Wrap",
+    "file": "chicken-shawarma-wrap.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chicken_Shawarma_Wrap_-_Lavash_2024-09-11.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "name": "Baklava",
+    "file": "baklava.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Baklava_-_Turkish_special,_80-ply.JPEG",
+    "artist": "Kultigin",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Baklava_-_Turkish_special,_80-ply.JPEG"
+  },
+  {
+    "name": "Rice Pudding",
+    "file": "rice-pudding.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tuwo_Shinkafa_with_garden_egg_Soup.jpg",
+    "artist": "Bukky658",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "name": "Kunafa",
+    "file": "kunafa.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Knafeh_in_Nazareth,_Israel.png",
+    "artist": "PeleYoetz",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "name": "Chocolate Cake",
+    "file": "chocolate-cake.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Piece_of_chocolate_cake_on_a_white_plate_decorated_with_chocolate_sauce.jpg",
+    "artist": "Daria YakovlevaMinor edits made by Subsidiary account",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "name": "Steak Sandwich",
+    "file": "steak-sandwich.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Steak_Sanga_gn.jpg",
+    "artist": "Gnangcomapp",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "name": "Turkish Coffee",
+    "file": "turkish-coffee.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:A_small_cup_of_coffee.JPG",
+    "artist": "Julius Schorzman",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "name": "Tawouk Sandwich",
+    "file": "tawouk-sandwich.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Grilled_Chicken_Sandwich_from_McDonald%27s_Dongzhimenwai_Store_(20191222163031).jpg",
+    "artist": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "name": "Mirinda Orange",
+    "file": "mirinda-orange.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mirinda_Egypt-orange%26green_apple-plastic_bottles.JPG",
+    "artist": "Faris knight",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "name": "Bottled Water",
+    "file": "bottled-water.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bottle_of_Water.jpg",
+    "artist": "Jiafei Slay Queen",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "name": "Pepsi",
+    "file": "pepsi.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2_Pepsi_cans,_zero_sugar.jpg",
+    "artist": "Hillsilo",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  {
+    "name": "7UP",
+    "file": "7up.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:7-Up_Bottlers_Flavor_jug.jpg",
+    "artist": "Imgur and Reddit user logicblocks",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+]

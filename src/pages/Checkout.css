@@ -1,0 +1,85 @@
+.checkout-page {
+  max-width: 700px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.checkout-page h1,
+.checkout-page h2 {
+  color: #28513c;
+}
+
+.checkout-box {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.checkout-box li {
+  margin-bottom: 10px;
+}
+
+.checkout-total {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.phone-error {
+  color: #b42318;
+  margin: 8px 0;
+}
+
+.checkout-box input[aria-invalid='true'] {
+  border-color: #b42318;
+}
+
+.checkout-box fieldset {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.checkout-box label {
+  display: block;
+  margin: 15px 0 8px;
+}
+
+.checkout-box input[type='text'],
+.checkout-box input[type='tel'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font: inherit;
+}
+
+.method-option input {
+  margin-right: 8px;
+}
+
+.checkout-box button,
+.checkout-link {
+  display: inline-block;
+  background-color: #28513c;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 20px 12px 0 0;
+}
+
+.checkout-box button:hover,
+.checkout-link:hover {
+  background-color: #193727;
+}
+
+.checkout-box input:focus-visible,
+.checkout-box button:focus-visible {
+  outline: 3px solid #c97d27;
+  outline-offset: 3px;
+}
