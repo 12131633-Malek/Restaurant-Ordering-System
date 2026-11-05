@@ -47,7 +47,8 @@
 }
 
 .checkout-box input[type='text'],
-.checkout-box input[type='tel'] {
+.checkout-box input[type='tel'],
+.checkout-box select {
   width: 100%;
   padding: 10px;
   border: 1px solid #aaa;
@@ -79,6 +80,7 @@
 }
 
 .checkout-box input:focus-visible,
+.checkout-box select:focus-visible,
 .checkout-box button:focus-visible {
   outline: 3px solid #c97d27;
   outline-offset: 3px;

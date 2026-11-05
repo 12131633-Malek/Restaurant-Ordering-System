@@ -13,22 +13,25 @@ import './App.css'
 export default function App() {
   // Keep the order here so Menu and Checkout can both use it.
   const [order, setOrder] = useState([])
-  // Remember the latest confirmed order when the page is refreshed.
-  const [trackingOrder, setTrackingOrder] = useState(() => {
+  // Keep all confirmed orders, including after a refresh in this tab.
+  const [trackingOrders, setTrackingOrders] = useState(() => {
     try {
-      return JSON.parse(sessionStorage.getItem('trackingOrder'))
+      const savedOrders = JSON.parse(sessionStorage.getItem('trackingOrder'))
+      // Keep the previous single order when upgrading to an order list.
+      if (Array.isArray(savedOrders)) return savedOrders
+      return savedOrders ? [savedOrders] : []
     } catch {
-      return null
+      return []
     }
   })
 
   useEffect(() => {
     try {
-      sessionStorage.setItem('trackingOrder', JSON.stringify(trackingOrder))
+      sessionStorage.setItem('trackingOrder', JSON.stringify(trackingOrders))
     } catch {
       // Tracking still works if browser storage is unavailable.
     }
-  }, [trackingOrder])
+  }, [trackingOrders])
 
   return (
     <BrowserRouter>
@@ -39,8 +42,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu order={order} setOrder={setOrder} />} />
-          <Route path="/checkout" element={<Checkout order={order} setOrder={setOrder} setTrackingOrder={setTrackingOrder} />} />
-          <Route path="/tracking" element={<Tracking trackingOrder={trackingOrder} />} />
+          <Route path="/checkout" element={<Checkout order={order} setOrder={setOrder} setTrackingOrders={setTrackingOrders} />} />
+          <Route path="/tracking" element={<Tracking trackingOrders={trackingOrders} />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

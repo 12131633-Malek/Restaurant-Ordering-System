@@ -23,6 +23,13 @@
   overflow-wrap: anywhere;
 }
 
+/* Separate one order from the next. */
+.tracked-order {
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #28513c;
+}
+
 .tracking-status,
 .tracking-total {
   font-size: 20px;

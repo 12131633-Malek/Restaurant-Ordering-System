@@ -2,9 +2,11 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import './Checkout.css'
 
-export default function Checkout({ order, setOrder, setTrackingOrder }) {
+export default function Checkout({ order, setOrder, setTrackingOrders }) {
   const navigate = useNavigate()
   const [method, setMethod] = useState('Pickup')
+  const [payment, setPayment] = useState('Cash')
+  const [cardType, setCardType] = useState('Visa')
   const [name, setName] = useState('')
   const [phone, setPhone] = useState('')
   const [phoneError, setPhoneError] = useState('')
@@ -31,16 +33,20 @@ export default function Checkout({ order, setOrder, setTrackingOrder }) {
 
     setPhoneError('')
     // Save a separate copy so later menu changes do not change this order.
-    setTrackingOrder({
+    const newOrder = {
       id: 'OT-' + Date.now(),
       items: [...order],
       method: method,
+      payment: payment,
+      cardType: payment === 'Card' ? cardType : '',
       name: name.trim(),
       phone: phone.trim(),
       address: method === 'Delivery' ? address.trim() : '',
       total: total,
       placedAt: Date.now(),
-    })
+    }
+    // Add the new order first without replacing previous orders.
+    setTrackingOrders((previousOrders) => [newOrder, ...previousOrders])
     setOrder([])
     navigate('/tracking')
   }
@@ -111,6 +117,28 @@ export default function Checkout({ order, setOrder, setTrackingOrder }) {
               <input id="delivery-address" type="text" autoComplete="off" placeholder="Street, building, apartment, and city" value={address} onChange={(event) => setAddress(event.target.value)} pattern=".*\S.*" required />
             </>
           )}
+
+          {/* Remember the payment choice without collecting card details. */}
+          <fieldset>
+            <legend>Payment Method</legend>
+            <label className="method-option">
+              <input type="radio" name="payment" value="Cash" checked={payment === 'Cash'} onChange={() => setPayment('Cash')} />
+              Cash — {method === 'Delivery' ? 'pay on delivery' : 'pay at pickup'}
+            </label>
+            <label className="method-option">
+              <input type="radio" name="payment" value="Card" checked={payment === 'Card'} onChange={() => setPayment('Card')} />
+              Card
+            </label>
+            {payment === 'Card' && (
+              <>
+                <label htmlFor="card-type">Card type</label>
+                <select id="card-type" value={cardType} onChange={(event) => setCardType(event.target.value)}>
+                  <option value="Visa">Visa</option>
+                  <option value="Mastercard">Mastercard</option>
+                </select>
+              </>
+            )}
+          </fieldset>
 
           <button type="submit">Confirm order and track</button>
           <Link to="/menu">Back to menu</Link>
