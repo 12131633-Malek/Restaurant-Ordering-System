@@ -1,0 +1,138 @@
+.contact-page {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.contact-page h1,
+.contact-page h2,
+.contact-page h3 {
+  color: #28513c;
+}
+
+.contact-banner {
+  position: relative;
+  overflow: hidden;
+  background-color: #28513c;
+  padding: 110px 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contact-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(0.55);
+}
+
+.contact-banner-text {
+  position: relative;
+}
+
+.contact-banner h1 {
+  color: white;
+  font-size: 36px;
+  margin: 0 0 15px;
+}
+
+.contact-banner p {
+  color: white;
+  margin: 0;
+}
+
+.contact-page p {
+  line-height: 1.6;
+}
+
+/* Restaurant details and message form */
+.contact-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.contact-box {
+  flex: 1;
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  overflow-wrap: anywhere;
+}
+
+.contact-box h2 {
+  margin-top: 0;
+}
+
+.contact-box label {
+  display: block;
+  margin: 15px 0 8px;
+}
+
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font: inherit;
+}
+
+.contact-box textarea {
+  resize: vertical;
+}
+
+.contact-message {
+  white-space: pre-wrap;
+}
+
+.contact-box button {
+  padding: 10px 15px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28513c;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.contact-box button:hover {
+  background-color: #193727;
+}
+
+.contact-box input:focus-visible,
+.contact-box textarea:focus-visible,
+.contact-box button:focus-visible {
+  outline: 3px solid #c97d27;
+  outline-offset: 3px;
+}
+
+.contact-error {
+  color: #b42318;
+}
+
+@media (max-width: 700px) {
+  .contact-banner {
+    padding: 80px 15px;
+  }
+
+  .contact-banner h1 {
+    font-size: 28px;
+  }
+
+  .contact-layout {
+    flex-direction: column;
+  }
+
+  .contact-box {
+    width: 100%;
+  }
+}

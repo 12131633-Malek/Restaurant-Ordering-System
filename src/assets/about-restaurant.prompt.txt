@@ -1,0 +1,3 @@
+Generated using the built-in image_gen tool.
+
+Use case: photorealistic-natural. Asset type: wide About-page background photograph for a simple Mediterranean restaurant website. Scene: inviting modest Mediterranean restaurant interior with wooden dining tables, simple ceramic tableware, olive-green accents, warm plaster walls, potted olive trees near large windows, soft golden afternoon light. Wide horizontal panoramic composition, no people. Keep middle area visually quiet for a white page heading and dark CSS overlay. Natural realistic editorial architecture photography, warm and welcoming, not luxurious or ornate. No text, logos, signs, watermarks, or typography.

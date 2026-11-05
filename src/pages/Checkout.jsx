@@ -1,14 +1,14 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import './Checkout.css'
 
-export default function Checkout({ order, setOrder }) {
+export default function Checkout({ order, setOrder, setTrackingOrder }) {
+  const navigate = useNavigate()
   const [method, setMethod] = useState('Pickup')
   const [name, setName] = useState('')
   const [phone, setPhone] = useState('')
   const [phoneError, setPhoneError] = useState('')
   const [address, setAddress] = useState('')
-  const [confirmed, setConfirmed] = useState(false)
 
   let total = 0
   for (const item of order) {
@@ -30,7 +30,19 @@ export default function Checkout({ order, setOrder }) {
     }
 
     setPhoneError('')
-    setConfirmed(true)
+    // Save a separate copy so later menu changes do not change this order.
+    setTrackingOrder({
+      id: 'OT-' + Date.now(),
+      items: [...order],
+      method: method,
+      name: name.trim(),
+      phone: phone.trim(),
+      address: method === 'Delivery' ? address.trim() : '',
+      total: total,
+      placedAt: Date.now(),
+    })
+    setOrder([])
+    navigate('/tracking')
   }
 
   // Show a message if someone visits Checkout without choosing food.
@@ -46,7 +58,7 @@ export default function Checkout({ order, setOrder }) {
 
   return (
     <div className="checkout-page">
-      <h1>{confirmed ? 'Your Order Details' : 'Checkout'}</h1>
+      <h1>Checkout</h1>
 
       <section className="checkout-box">
         <h2>Your Order</h2>
@@ -58,16 +70,6 @@ export default function Checkout({ order, setOrder }) {
         <p className="checkout-total">Food total: ${total.toFixed(2)}</p>
       </section>
 
-      {confirmed ? (
-        <section className="checkout-box" aria-label="Selected order details">
-          <h2>{method} selected</h2>
-          <p>Name: {name}</p>
-          <p>Phone: {phone}</p>
-          {method === 'Delivery' ? <p>Delivery address: {address}</p> : <p>Collect your food from the restaurant.</p>}
-          <button onClick={() => setConfirmed(false)}>Edit details</button>
-          <button onClick={() => setOrder([])}>Start a new order</button>
-        </section>
-      ) : (
         <form className="checkout-box" onSubmit={confirmOrder} autoComplete="off">
           <h2>How would you like your food?</h2>
 
@@ -110,10 +112,9 @@ export default function Checkout({ order, setOrder }) {
             </>
           )}
 
-          <button type="submit">Confirm selection</button>
+          <button type="submit">Confirm order and track</button>
           <Link to="/menu">Back to menu</Link>
         </form>
-      )}
     </div>
   )
 }

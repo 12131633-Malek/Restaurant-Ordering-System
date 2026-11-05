@@ -23,6 +23,20 @@
   border-radius: 10px;
 }
 
+.order-now-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 20px;
+  background-color: #28513c;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.order-now-button:hover {
+  background-color: #193727;
+}
+
 /* Three feature boxes */
 .features {
   max-width: 1100px;

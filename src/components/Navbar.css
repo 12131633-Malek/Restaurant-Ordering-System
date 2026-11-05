@@ -4,6 +4,7 @@
   align-items: center;
   gap: 20px;
   padding: 20px;
+  flex-wrap: wrap;
   background-color: #28513c;
   color: white;
 }
@@ -20,6 +21,8 @@
 
 .navbar nav {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 

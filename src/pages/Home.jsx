@@ -1,4 +1,5 @@
 import heroImage from '../assets/mediterranean-hero.png'
+import { Link } from 'react-router-dom'
 import './Home.css'
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
           <h1>Welcome to Olive &amp; Thyme</h1>
           <p>Enjoy tasty Mediterranean food made with fresh ingredients.</p>
           <p>Good food tastes even better when shared with family and friends.</p>
+          <Link className="order-now-button" to="/menu">Order Now</Link>
         </div>
         <img src={heroImage} alt="Chicken skewers with hummus, salad, and pita bread" />
       </section>

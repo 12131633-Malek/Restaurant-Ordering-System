@@ -1,0 +1,106 @@
+.tracking-page {
+  max-width: 750px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.tracking-page h1,
+.tracking-page h2 {
+  color: #28513c;
+}
+
+.tracking-note {
+  color: #555;
+  line-height: 1.6;
+}
+
+.tracking-box {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.tracking-status,
+.tracking-total {
+  font-size: 20px;
+  font-weight: bold;
+  color: #28513c;
+}
+
+.tracking-steps {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 25px 0;
+}
+
+.tracking-steps li {
+  flex: 1;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.step-number {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #eee;
+  text-align: center;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+.tracking-steps .step-reached {
+  color: #28513c;
+  font-weight: bold;
+}
+
+.step-reached .step-number {
+  background-color: #28513c;
+  color: white;
+}
+
+.tracking-box button {
+  padding: 10px 15px;
+  background-color: #28513c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font: inherit;
+  cursor: pointer;
+}
+
+.tracking-box button:hover {
+  background-color: #193727;
+}
+
+.tracking-box button:focus-visible {
+  outline: 3px solid #c97d27;
+  outline-offset: 3px;
+}
+
+.tracking-box li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+  .tracking-steps {
+    flex-direction: column;
+  }
+
+  .tracking-steps li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .step-number {
+    margin-bottom: 0;
+  }
+}

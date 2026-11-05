@@ -9,6 +9,9 @@ export default function Navbar() {
         <NavLink to="/" end>Home</NavLink>
         <NavLink to="/menu">Menu</NavLink>
         <NavLink to="/checkout">Checkout</NavLink>
+        <NavLink to="/tracking">Tracking</NavLink>
+        <NavLink to="/about">About</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
       </nav>
     </header>
   )

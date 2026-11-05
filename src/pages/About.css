@@ -1,0 +1,105 @@
+.about-page {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.about-page h1,
+.about-page h2,
+.about-page h3 {
+  color: #28513c;
+}
+
+.about-page p {
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Place the restaurant image behind the heading. */
+.about-banner {
+  position: relative;
+  overflow: hidden;
+  background-color: #28513c;
+  padding: 110px 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.about-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+  filter: brightness(0.55);
+}
+
+.about-banner-text {
+  position: relative;
+}
+
+.about-banner h1 {
+  color: white;
+  font-size: 36px;
+  margin: 0 0 15px;
+}
+
+.about-banner p {
+  color: white;
+  margin: 0;
+}
+
+.about-box {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.about-box h2,
+.about-box h3 {
+  margin-top: 0;
+}
+
+/* Place the three values beside each other. */
+.about-values {
+  display: flex;
+  gap: 20px;
+}
+
+.about-values .about-box {
+  flex: 1;
+  margin-top: 0;
+}
+
+.about-menu-link {
+  display: inline-block;
+  padding: 12px 18px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #28513c;
+  color: white;
+  text-decoration: none;
+}
+
+.about-menu-link:hover {
+  background-color: #193727;
+}
+
+@media (max-width: 700px) {
+  .about-banner {
+    padding: 80px 15px;
+  }
+
+  .about-banner h1 {
+    font-size: 28px;
+  }
+
+  .about-values {
+    flex-direction: column;
+    gap: 0;
+  }
+}

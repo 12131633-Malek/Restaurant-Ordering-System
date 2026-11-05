@@ -1,0 +1,3 @@
+Generated with the built-in image_gen tool.
+
+Use case: photorealistic-natural. Asset type: wide background photograph for Contact Us header of a Mediterranean restaurant website. Subject: welcoming small Mediterranean restaurant entrance viewed from the street, olive-green wooden door on left, warm terracotta pots with olive trees, cream stone facade, small outdoor wooden table with two chairs on right, soft late afternoon sunlight. Realistic architectural editorial photography, warm natural palette. Wide landscape composition, no people, no lettering or signage or logos. Keep central area simple to accommodate a white heading with a dark overlay added in CSS. Clearly a different scene from an indoor dining room.
