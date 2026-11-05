@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #28513c;
+  color: white;
+}
+
+.restaurant-name {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar nav a {
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}

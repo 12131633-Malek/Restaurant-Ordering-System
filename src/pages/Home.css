@@ -1,0 +1,78 @@
+/* Welcome text and image */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1100px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 38px;
+  color: #28513c;
+}
+
+.hero p {
+  line-height: 1.7;
+  color: #555;
+}
+
+.hero img {
+  width: 45%;
+  border-radius: 10px;
+}
+
+/* Three feature boxes */
+.features {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 20px 50px;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 25px;
+}
+
+.feature-boxes {
+  display: flex;
+  gap: 20px;
+}
+
+.feature-box {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.feature-box h3 {
+  color: #28513c;
+}
+
+.feature-box p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Stack the content on small screens */
+@media (max-width: 700px) {
+  .hero {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero img {
+    width: 100%;
+  }
+
+  .feature-boxes {
+    flex-direction: column;
+  }
+}
