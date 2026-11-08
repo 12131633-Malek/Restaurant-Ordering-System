@@ -9,6 +9,7 @@ import Contact from './pages/Contact'
 import { useEffect, useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
+import { canCancelOrder } from './utils/orderTracking'
 
 export default function App() {
   // Keep the order here so Menu and Checkout can both use it.
@@ -18,8 +19,8 @@ export default function App() {
     try {
       const savedOrders = JSON.parse(sessionStorage.getItem('trackingOrder'))
       // Keep the previous single order when upgrading to an order list.
-      if (Array.isArray(savedOrders)) return savedOrders
-      return savedOrders ? [savedOrders] : []
+      const orders = Array.isArray(savedOrders) ? savedOrders : savedOrders ? [savedOrders] : []
+      return orders.filter((trackedOrder) => trackedOrder.status !== 'cancelled')
     } catch {
       return []
     }
@@ -33,6 +34,13 @@ export default function App() {
     }
   }, [trackingOrders])
 
+  function cancelOrder(orderId) {
+    const cancelledAt = Date.now()
+    setTrackingOrders((previousOrders) => previousOrders.filter((trackedOrder) => (
+      trackedOrder.id !== orderId || !canCancelOrder(trackedOrder, cancelledAt)
+    )))
+  }
+
   return (
     <BrowserRouter>
       <a className="skip-link" href="#main-content">Skip to content</a>
@@ -43,7 +51,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu order={order} setOrder={setOrder} />} />
           <Route path="/checkout" element={<Checkout order={order} setOrder={setOrder} setTrackingOrders={setTrackingOrders} />} />
-          <Route path="/tracking" element={<Tracking trackingOrders={trackingOrders} />} />
+          <Route path="/tracking" element={<Tracking trackingOrders={trackingOrders} onCancelOrder={cancelOrder} />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

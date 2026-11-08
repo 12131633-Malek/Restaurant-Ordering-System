@@ -92,6 +92,14 @@
   outline-offset: 3px;
 }
 
+.tracking-box .cancel-order {
+  background-color: #a32d25;
+}
+
+.tracking-box .cancel-order:hover {
+  background-color: #7c211b;
+}
+
 .tracking-box li {
   margin-bottom: 10px;
 }

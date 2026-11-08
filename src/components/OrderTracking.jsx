@@ -1,5 +1,20 @@
+import { canCancelOrder } from '../utils/orderTracking'
+
 // One card shows the progress and details of one confirmed order.
-export default function OrderTracking({ trackingOrder, now }) {
+export default function OrderTracking({ trackingOrder, now, onCancelOrder }) {
+  const cancelled = trackingOrder.status === 'cancelled'
+  const canCancel = canCancelOrder(trackingOrder, now)
+
+  function handleCancel() {
+    if (window.confirm(`Cancel order ${trackingOrder.id}? This cannot be undone.`)) {
+      // Recheck the time in case preparation began while the prompt was open.
+      if (canCancelOrder(trackingOrder, Date.now())) {
+        onCancelOrder(trackingOrder.id)
+      } else {
+        window.alert('This order is already being prepared and can no longer be cancelled.')
+      }
+    }
+  }
   const delivery = trackingOrder.method === 'Delivery'
   const steps = delivery
     ? ['Confirmed', 'Preparing', 'Out for delivery', 'Delivered']
@@ -19,7 +34,11 @@ export default function OrderTracking({ trackingOrder, now }) {
       <section className="tracking-box">
         <h2>Order {trackingOrder.id}</h2>
         <p>{trackingOrder.method} for {trackingOrder.name}</p>
-        <p className="tracking-status" role="status">Status: {steps[stage]}</p>
+        <p className="tracking-status" role="status">Status: {cancelled ? 'Cancelled' : steps[stage]}</p>
+        {cancelled ? (
+          <p>Your order has been cancelled.</p>
+        ) : (
+          <>
         <p>{remaining > 0 ? `Estimated completion in ${minutes}:${seconds}` : delivery ? 'Simulation complete' : 'Estimated pickup time reached.'}</p>
         <ol className="tracking-steps">
           {steps.map((step, index) => (
@@ -29,6 +48,18 @@ export default function OrderTracking({ trackingOrder, now }) {
             </li>
           ))}
         </ol>
+        {canCancel ? (
+          <>
+            <p className="tracking-note">You can cancel this order before preparation starts.</p>
+            <button type="button" className="cancel-order" onClick={handleCancel} aria-label={`Cancel order ${trackingOrder.id}`}>
+              Cancel order
+            </button>
+          </>
+        ) : (
+          <p className="tracking-note">This order can no longer be cancelled because preparation has started.</p>
+        )}
+          </>
+        )}
       </section>
 
       <section className="tracking-box">
