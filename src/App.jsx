@@ -7,7 +7,7 @@ import Tracking from './pages/Tracking'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import { useEffect, useState } from 'react'
-import { HashRouterRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import { canCancelOrder } from './utils/orderTracking'
 
@@ -42,7 +42,7 @@ export default function App() {
   }
 
   return (
-     <HashRouterRouter>
+     <HashRouter>
     
       <a className="skip-link" href="#main-content">Skip to content</a>
       <Navbar />
@@ -58,6 +58,6 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
-   </HashRouterRouter>
+   </HashRouter>
   )
 }
